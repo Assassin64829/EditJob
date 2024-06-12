@@ -1,8 +1,14 @@
 <script setup lang="ts">
+import Tiptap from './components/Tiptap.vue'
+import Editor from './components/Editor.vue';
 </script>
 
 <template>
   <RouterView></RouterView>
+  <div id="app">
+    <tiptap />
+    <editor />
+  </div>
 </template>
 
 <style scoped>
